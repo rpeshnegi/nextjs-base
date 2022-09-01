@@ -1,0 +1,48 @@
+{
+  "name": "da-market",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8080",
+    "build": "next build",
+    "start": "next start -p 8080",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.6",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "next": "12.2.2",
+    "primereact": "^8.3.0",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.33.1",
+    "react-image-crop": "^10.0.6",
+    "react-localization": "^1.0.19",
+    "react-redux": "^8.0.2",
+    "react-slick": "^0.29.0",
+    "react-transition-group": "^4.4.2",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "sass": "^1.53.0",
+    "slick-carousel": "^1.8.1",
+    "styled-jsx": "^5.0.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.3",
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "@types/react-slick": "^0.23.10",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.2",
+    "typescript": "^4.8.2"
+  }
+}
